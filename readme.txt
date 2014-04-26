@@ -1,5 +1,5 @@
 === SyntaxHighlighter Evolved: VHDL Brush ===
-Contributors: Carlos Ramos
+Contributors: UnboundDarkness
 Donate link: http://www.estadofinito.com/donacion-syntax-highlighter/
 Tags: vhdl, syntax highlighter, code, sourcecode
 Requires at least: 2.8
@@ -16,14 +16,14 @@ Adds support for the VHDL and Verilog languages to the SyntaxHighlighter Evolved
 
 This plugin enables the syntax colorization for the VHDL and Verilog languages by extending the [Syntax Highlighter Evolved](http://wordpress.org/extend/plugins/syntaxhighlighter/) functionality (and thus, you need to have it installed).
 
-Not all of the work was done by me:
-* The VHDL brush is an adaptation done by me of the [GeSHi syntax by Alexander 'E-Razor' Krause](http://peej.github.com/phpdoctor/examples/geshi/source/geshi/vhdl.php.html). It can be used as language="vhdl" or with the shortcode [vhdl] ... all code ... [/vhdl].
-* The Verilog brush was made by Harry Rose at [Beyond All Repair](http://beyondallrepair.com/2012/05/javascript-syntax-highlighting-for-verilog/). I am just merely putting it into this plugin.
-* The Xilinx UCF support is my work, although it works for the basic stuff. And basic means colorization for NET, LOC, and comments.
-
 For VHDL examples you can check some of my posts at [Estado Finito](http://www.estadofinito.com/divisor-frecuencia-vhdl/). Here is another example, using the Xilinx UCF and VHDL coloring: [another awesome example](http://www.estadofinito.com/reloj-digital/).
 
 For Verilog examples, you can pay a visit to [Beyond All Repair](http://beyondallrepair.com/2012/04/counting-leds-on-a-digilent-atlys/) or [Idle Logic](http://idle-logic.com/2010/03/22/cyclone-ii-breakout-board-demo/).
+
+= The people behind it =
+* The VHDL brush is an adaptation done by me of the [GeSHi syntax by Alexander 'E-Razor' Krause](http://peej.github.com/phpdoctor/examples/geshi/source/geshi/vhdl.php.html). It can be used as language="vhdl" or with the shortcode [vhdl] ... all code ... [/vhdl].
+* The Verilog brush was made by Harry Rose at [Beyond All Repair](http://beyondallrepair.com/2012/05/javascript-syntax-highlighting-for-verilog/). I am just merely putting it into this plugin.
+* The Xilinx UCF support is my work, although it works for the basic stuff. And basic means colorization for NET, LOC, and comments.
 
 Hope it can be of use to any digital designer out there. Need another language or more features? Don't hesitate to ask!
 
