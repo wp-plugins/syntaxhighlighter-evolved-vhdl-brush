@@ -10,7 +10,7 @@
  * but While, WhIle, or others will not be).
  ******************************************************************************/
 
-SyntaxHighlighter.brushes.Custom = function(){
+SyntaxHighlighter.brushes.Vhdl = function(){
     var keywordsMin  = 'access after alias all assert attribute architecture begin block body buffer bus case component configuration constant disconnect downto else elsif end entity exit file for function generate generic group guarded if impure in inertial inout is label library linkage literal loop map new next null of on open others out package port postponed procedure process pure range record register reject report return select severity signal shared subtype then to transport type unaffected units until use variable wait when while with note warning error failure and or xor not nor used memory segments dff dffe help_id mod info latch rising_edge falling_edge';
     var keywords = keywordsMin + ' ' + keywordsMin.toUpperCase();
     
@@ -20,12 +20,12 @@ SyntaxHighlighter.brushes.Custom = function(){
     
     this.regexList = [
         { regex: /--.*$/gm,                                css: 'comments' },
-        { regex: SyntaxHighlighter.regexLib.doubleQuotedString,	css: 'color1' },
-        { regex: SyntaxHighlighter.regexLib.singleQuotedString,	css: 'color1' },
-        { regex: new RegExp(this.getKeywords(keywords),  'gm'),	css: 'keyword' },
-        { regex: new RegExp(this.getKeywords(datatypes), 'gm'),	css: 'string' }
+        { regex: SyntaxHighlighter.regexLib.doubleQuotedString, css: 'color1' },
+        { regex: SyntaxHighlighter.regexLib.singleQuotedString, css: 'color1' },
+        { regex: new RegExp(this.getKeywords(keywords),  'gm'), css: 'keyword' },
+        { regex: new RegExp(this.getKeywords(datatypes), 'gm'), css: 'string' }
     ];
 };
 
-SyntaxHighlighter.brushes.Custom.prototype = new SyntaxHighlighter.Highlighter();
-SyntaxHighlighter.brushes.Custom.aliases  = ['vhdl'];
+SyntaxHighlighter.brushes.Vhdl.prototype = new SyntaxHighlighter.Highlighter();
+SyntaxHighlighter.brushes.Vhdl.aliases  = ['vhdl'];
