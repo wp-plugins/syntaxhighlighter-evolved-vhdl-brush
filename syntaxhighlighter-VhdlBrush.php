@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: SyntaxHighlighter Evolved: VHDL Brush
-Description: Adds support for the VHDL language to the SyntaxHighlighter Evolved plugin. Also, includes syntax coloring for Xilinx UCF files.
+Description: Adds support for the VHDL and Verilog languages to the SyntaxHighlighter Evolved plugin. Also, includes basic syntax coloring for Xilinx UCF files.
 Author: Carlos Ramos
 Version: 1.1
 Author URI: http://www.estadofinito.com
